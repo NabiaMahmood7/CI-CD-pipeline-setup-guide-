@@ -24,7 +24,7 @@ public class AppointmentController {
 	    // Retrieve the list of appointments
 	    List<Appointment> appointmentList = da.getAllAppointments();
 
-	    // Add the list of appointments to the model
+	    // Add the list of appointments to the models
 	    model.addAttribute("appointmentList", appointmentList);
 
 	    // Create a new empty appointment and add it to the models
